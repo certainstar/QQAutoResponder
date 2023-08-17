@@ -38,10 +38,11 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
 **1. 对go-cqhttp进行配置**
   - 可进入[Mrs4s大佬的go-cqhttp项目库](https://github.com/Mrs4s/go-cqhttp/)，自行配置，其中[教学文档](https://docs.go-cqhttp.org)有[引导部分](https://docs.go-cqhttp.org/guide/#go-cqhttp)，可供学习参考。
   - 若不会配置可跟随下方步骤进行配置：
-      - [x] 首先下载适合自己系统的最新的go-cqhttp.exe文件，_[最新下载地址](https://github.com/Mrs4s/go-cqhttp/releases)_，或者直接导入[本库中的go-cqhttp.exe文件](https://github.com/certainstar/little-Python-software/blob/%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/go-cqhttp/go-cqhttp.exe)，_`注意：本库中的go-cqhttp为_amd64版本_`_
-      - [x] 下载后，点击 _go-cqhttp.exe_，会弹窗（如图配置go-cq步骤1），直接一路确认然后会在此目录下生成一个 _go-cqhttp.bat_文件，点击bat文件。
+      - [x] 首先下载适合自己系统的最新的 _go-cqhttp.exe_ 文件，_[最新下载地址](https://github.com/Mrs4s/go-cqhttp/releases)_，或者直接导入[本库中的go-cqhttp.exe文件](https://github.com/certainstar/little-Python-software/blob/%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/go-cqhttp/go-cqhttp.exe)，_`注意：本库中的go-cqhttp为_amd64版本_`_
+      - [x] 下载后，点击 _go-cqhttp.exe_，会弹窗（如图配置go-cq步骤1），直接一路确认然后会在此目录下生成一个 _go-cqhttp.bat_ 文件，点击bat文件。
       <p align="center">
         <img src="img/配置go-cq步骤1.jpg" alt="配置go-cq步骤1">
+        <p></p>
         <span>配置go-cq步骤1</span>
       </p>
       
@@ -82,20 +83,20 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
       修改后的server部分如下图所示：
       <p align="center">
         <img src="img/配置go-cq步骤3.jpg" alt="配置go-cq步骤3">
-        <div>配置go-cq步骤3</div>
+        <span>配置go-cq步骤3</span>
       </p>
 
-      - [x]此时保存 _config.yml_ 文件，再次点击 _go-cqhttp.bat_ 文件，此时会生成一个 _device.json_ 文件,此时观察弹窗中的信息，如果未遇到 _code 45_ 错误，或者并未警告，账号有较高风险，则推荐继续向下操作。
+      - [x] 此时保存 _config.yml_ 文件，再次点击 _go-cqhttp.bat_ 文件，此时会生成一个 _device.json_ 文件,此时观察弹窗中的信息，如果未遇到 _code 45_ 错误，或者并未警告，账号有较高风险，则推荐继续向下操作。
 
       未有报错或警告时，弹窗中会有以下信息（如图配置go-cq步骤4所示）
       <p align="center">
         <img src="img/配置go-cq步骤4.jpg" alt="配置go-cq步骤4">
-        <div>配置go-cq步骤4</div>
+        <span>配置go-cq步骤4</span>
       </p>
 
       推荐输入1后回车，这时弹窗会显示 _请前往该地址验证->网址_，将网址复制到浏览器打开，完成滑块验证后关闭，若此时弹窗无报错，可能会出现给手机发验证码的信息，按照流程完成手机验证后，一般会正常登录。
 
-      若刚开始或完成滑块验证后有风险或遇到 _code 45_ 错误，请配置签名服务器，并对相应的 _config.yml_ 文件进行修改。
+      若刚开始或完成滑块验证后有风险或遇到 _`code 45`_ 错误，请配置签名服务器，并对相应的 _config.yml_ 文件进行修改。
 
 **2. 对签名服务器进行配置**
 
