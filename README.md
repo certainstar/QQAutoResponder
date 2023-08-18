@@ -196,4 +196,4 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
 
 # Issue
 
-- 本项目由于 ___特殊原因（开发者只有一个，而且`很懒`）___ ，所以并没有开启（还有一个原因，开发者并非长期关注github的用户），所以提交bug或者想要新功能，在[release](https://github.com/certainstar/little-Python-software/releases)处留言或者直接<a href="mailto:2378145658@qq.com">email me at 开发者的邮箱（2378145658@qq.com）</a>，开发者会定时查看大家的反馈。
+- 本项目由于 ___特殊原因（开发者只有一个，而且`很懒`）___ ，所以并没有开启（还有一个原因，开发者并非长期关注github的用户），所以提交bug或者想要新功能，在[release](https://github.com/certainstar/little-Python-software/releases)处留言或者直接<a href="mailto:2378145658@qq.com">email me at 开发者的邮箱(2378145658@qq.com)</a>，开发者会定时查看大家的反馈。
