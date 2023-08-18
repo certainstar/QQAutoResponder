@@ -192,8 +192,13 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
 
 - 本程序源码以及衍生产物 ___不允许在权限未授予的情况下`商业化`使用___ ，否则根据本项目的[license:Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)，可以 __侵犯权益__ 的名义上诉。
 
-- 但是也不必太过于严肃，程序设计初衷也是为了方便大家，希望大家在使用程序时获取便利，最后，___enjoy yourself！___
+- 由于本程序的某些特殊性质，可能会在 ___`未来某时停更或者删除本项目`___ ，还请大家见谅。
+
+- 但是也不必太过于严肃，程序设计初衷也是为了方便大家，希望大家在使用程序时获取便利，最后，___just enjoy yourself now！___
 
 # Issue
 
-- 本项目由于 ___特殊原因（开发者只有一个，而且`很懒`）___ ，所以并没有开启（还有一个原因，开发者并非长期关注github的用户），所以提交bug或者想要新功能，在[release](https://github.com/certainstar/little-Python-software/releases)处留言或者直接<a href="mailto:2378145658@qq.com">email me at 开发者的邮箱(2378145658@qq.com)</a>，开发者会定时查看大家的反馈。
+- 本项目由于 ___特殊原因（开发者只有一个，而且`很懒`）___ ，所以并没有开启（还有一个原因，开发者并非长期关注github的用户），所以提交bug或者想要新功能，在[release](https://github.com/certainstar/little-Python-software/releases)处留言或者直接
+<a href="mailto:2378145658@qq.com">
+  email me at 开发者的邮箱(2378145658@qq.com)
+</a>，开发者会定时查看大家的反馈。
