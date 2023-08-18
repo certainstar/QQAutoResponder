@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/certainstar/little-Python-software/tree/%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/%E7%9B%91%E5%90%AC%E8%84%9A%E6%9C%AC%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6(.exe)">
+  <a href="https://github.com/certainstar/little-Python-software/tree/%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/%E7%9B%91%E5%90%AC%E8%84%9A%E6%9C%AC%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6(.exe)" target="_blank">
     <img src="img/2.ico" width="200" height="200" alt="监听脚本">
   </a>
 </p>
@@ -19,16 +19,16 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
 </div>
 
 <p align="center">
-  <a href="https://www.apache.org/licenses/LICENSE-2.0">
+  <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">
     <img src="img/license.jpg" width="195" height="30" alt="license:Apache License 2.0">
   </a>
-  <a href="https://github.com/certainstar/little-Python-software/releases">
+  <a href="https://github.com/certainstar/little-Python-software/releases" target="_blank">
     <img src="img/release.jpg" width="195" height="30" alt="release:v1.2.1">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/certainstar/little-Python-software/releases/tag/v1.2.1">下载</a>
+  <a href="https://github.com/certainstar/little-Python-software/releases" target="_blank">下载</a>
 </p>
 
 # 使用教程
@@ -199,6 +199,4 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
 # Issue
 
 - 本项目由于 ___特殊原因（开发者只有一个，而且`很懒`）___ ，所以并没有开启（还有一个原因，开发者并非长期关注github的用户），所以提交bug或者想要新功能，在[release](https://github.com/certainstar/little-Python-software/releases)处留言或者直接
-<a href="mailto:2378145658@qq.com">
-  email me at 开发者的邮箱(2378145658@qq.com)
-</a>，开发者会定时查看大家的反馈。
+<a href="mailto:2378145658@qq.com">email me at 开发者的邮箱</a>(2378145658@qq.com)，开发者会定时查看大家的反馈。
