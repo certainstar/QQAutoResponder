@@ -22,7 +22,7 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
   <a href="https://www.apache.org/licenses/LICENSE-2.0">
     <img src="img/license.jpg" width="195" height="30" alt="license:Apache License 2.0">
   </a>
-  <a href="https://github.com/certainstar/little-Python-software/releases/tag/v1.2.1">
+  <a href="https://github.com/certainstar/little-Python-software/releases">
     <img src="img/release.jpg" width="195" height="30" alt="release:v1.2.1">
   </a>
 </p>
@@ -36,22 +36,32 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
 ## 前置配置
 
 ### **1. 对go-cqhttp进行配置**
+<details>
+  <summary>如何配置go-cqhttp</summary>
+
   - 可进入[Mrs4s大佬的go-cqhttp项目库](https://github.com/Mrs4s/go-cqhttp/)，自行配置，其中[教学文档](https://docs.go-cqhttp.org)有[引导部分](https://docs.go-cqhttp.org/guide/#go-cqhttp)，可供学习参考。
   - 若不会配置可跟随下方步骤进行配置：
+      <details>
+        <summary>步骤如下</summary>
+
       - [x] 首先下载适合自己系统的最新的 _`go-cqhttp.exe`_ 文件，_[最新下载地址](https://github.com/Mrs4s/go-cqhttp/releases)_，或者直接导入[本库中的go-cqhttp.exe文件](https://github.com/certainstar/little-Python-software/blob/%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/go-cqhttp/go-cqhttp.exe)，_`注意：本库中的go-cqhttp为amd64版本`_
       - [x] 下载后，点击 _`go-cqhttp.exe`_，会弹窗（如图配置go-cq步骤1），直接一路确认然后会在此目录下生成一个 _`go-cqhttp.bat`_ 文件，点击bat文件。
       <p align="center">
         <img src="img/配置go-cq步骤1.jpg" alt="配置go-cq步骤1">
         <p align="center">
-          <span>配置go-cq步骤1</span>
+          <span> 配置go-cq步骤1</span>
         </p>
       </p>
       
-      - [x] 此时会生成一个如下图所示的弹窗，可以按照自身需求输入0~3，本程序以输入0为例子。输入后回车会生成一个 _`config.yml`_ 文件，打开后可以进行修改（可用记事本方式打开）,这里推荐用Sublime Text软件进行查看。
+      - [x] 此时会生成一个如下图所示的弹窗，可以按照自身需求输入0~3，本程序以输入0为例子。输入后回车会生成一个 _`config.yml`_ 文件，打开后可以进行修改（可用记事本方式打开）,这里推荐用Sublime Text软件进行查看。[点击此处进入懒人界面][1] [^1]
       
+      [^1]:进入懒人界面可直接复制完整版的 _`config.yml`_ 文件。
+
       <p align="center">
         <img src="img/配置go-cq步骤2.jpg" alt="配置go-cq步骤2">
-        <span>配置go-cq步骤2<span>
+        <p align="center">
+          <span>配置go-cq步骤2<span>
+        </p>
       </p>
     
       - [x] 首先将QQ号和相对应的密码进行输入，_`输入密码时记得在引号中输入`_ 。后续将
@@ -85,10 +95,12 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
               retries-interval: 1500 # 重试时间，单位毫秒，0 时立即
         ```
 
-        修改后的 _`server`_ 部分如下图所示：
+        修改后的 _`server`_ 部分如下图所示，可自行比对检查：
       <p align="center">
-        <img src="img/配置go-cq步骤3.jpg" alt="配置go-cq步骤3">
-        <span>配置go-cq步骤3</span>
+        <img src="img/配置go-cq步骤3.png" width="400" height="250" alt="配置go-cq步骤3">
+        <p align="center">
+          <span>配置go-cq步骤3</span>
+        </p>      
       </p>
 
       - [x] 此时保存 _`config.yml`_ 文件，再次点击 _`go-cqhttp.bat`_ 文件，此时会生成一个 _`device.json`_ 文件,此时观察弹窗中的信息，如果未遇到 _`code 45`_ 错误，或者并未警告，账号有较高风险，则推荐继续向下操作。
@@ -97,22 +109,38 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
           
           <p align="center">
             <img src="img/配置go-cq步骤4.jpg" alt="配置go-cq步骤4">
-            <span>配置go-cq步骤4</span>
+            <p align="center">
+              <span>配置go-cq步骤4</span>
+            </p>
           </p>
 
-          推荐输入1后回车，这时弹窗会显示 _`请前往该地址验证->网址`_，将网址复制到浏览器打开，完成滑块验证后关闭，若此时弹窗无报错，可能会出现给手机发验证码的信息，按照流程完成手机验证后，一般会正常登录。
+          推荐输入1后回车，这时弹窗会显示 _`请前往该地址验证->网址`_，将网址复制到浏览器打开，完成滑块验证后关闭，若此时弹窗无报错，可能会出现类似以下信息：
+          ```
+          该QQ有设置密保:
+          1.给手机***...***发送消息
+          2.手机QQ扫码验证
+          ```
+          可自行选择1或2后回车，按照相对应的流程完成验证后，一般会正常登录。
 
-          若刚开始或完成滑块验证后有风险或遇到 _`code 45`_ 错误，请配置签名服务器，并对相应的 _`config.yml`_ 文件进行修改。
+          若刚开始或完成滑块验证后有风险或遇到 _`code 45`_ 错误，请<a href="#qsign">配置签名服务器</a>，并对相应的 _`config.yml`_ 文件进行修改。
         </div>
+      </details>      
+</details>
 
 ### **2. 对签名服务器进行配置**
+<details>
+<summary id="qsign">如何配置签名服务器</summary>
 
-___提醒：运行该签名服务器前需要配置`java环境`，所以若还未配置java环境可先去[java官网](https://www.java.com/)进行下载，然后进行配置（若java版本过低无法运行后续bat脚本，可直接利用java命令进行更新），如果不会配置，[请点击此处进入配置java环境教学部分]()___
+> ___提醒：运行该签名服务器前需要配置`java环境`，所以若还未配置java环境可先去[java官网](https://www.java.com/)进行下载，然后进行配置（若java版本过低无法运行后续bat脚本，可直接利用java命令进行更新），如果不会配置，[请点击此处进入配置java环境教学部分][1]___
 
-_问题：为什么要用签名服务器？为减少风控，减少`code45`风控报错，最好对签名服务器进行配置_
+[1]:img/仍在开发.png
+> _问题：为什么要用签名服务器？为减少风控，减少`code45`  风控报错，最好对签名服务器进行配置_
   
   - 可进入[fuqiuluo大佬的签名服务器项目](https://github.com/fuqiuluo/unidbg-fetch-qsign)，并进行部署。
   - 若不会配置可跟随下方步骤进行配置：
+      <details>
+        <summary>步骤如下</summary>
+
       - [x] 首先查看目前 _`go-cqhttp.exe`_ 支持的签名服务器版本号(应该是向下兼容的)，然后在[大佬的签名服务器项目下载页面](https://github.com/fuqiuluo/unidbg-fetch-qsign/releases)进行下载自己想要的版本。或者直接下载本项目中已经[下载好的签名服务器](https://github.com/certainstar/little-Python-software/tree/%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/%E7%AD%BE%E5%90%8D%E6%9C%8D%E5%8A%A1%E5%99%A8)。 _`注意：本库中的签名服务器版本为1.1.0版本`_
       - [x] 下载后打开会发现有一个 _`start.bat`_ 脚本（如果在大佬的项目中没有找到，可以自行编写，源码可查看本项目中的 [_`start.bat脚本源代码`_](https://github.com/certainstar/little-Python-software/blob/%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/%E7%AD%BE%E5%90%8D%E6%9C%8D%E5%8A%A1%E5%99%A8/start.bat) ）或直接复制以下代码：
         ```bat
@@ -140,8 +168,32 @@ _问题：为什么要用签名服务器？为减少风控，减少`code45`风�
         # 服务器可使用docker在本地搭建或者使用他人开放的服务
         sign-server: 'http://localhost:8080'
         ```
-        保存 _`config.yml`_ 后打开 _`go-cqhttp.bat`_ 脚本。后续按照上述<a href="#nowarning" style="color: #04c;text-decoration: none;">未有报错或警告时</a>的操作进行操作。
+        保存 _`config.yml`_ 后打开 _`go-cqhttp.bat`_ 脚本（此时要保证 _`start.bat`_ 脚本生成的签名服务器在后台运行，即生成的系统弹窗未关闭）。后续按照上述<a href="#nowarning" >未有报错或警告时</a>的操作进行操作。
+
+        由于部分原因，在第一次正常登录后，后续登录就不需要再挂上签名服务器，直接点击 _`go-cqhttp.bat`_ 脚本进行启动即可。若不放心，认为还有封号风险，可以在后续登录时先启动 _`start.bat`_ 脚本然后再启动 _`go-cqhttp.bat`_ 脚本。
+      </details>  
+</details>
 
 ## 程序使用
 
+>___提醒：在使用程序前，请查看前置配置是否完成，同时注意保证在使用该程序时，您的QQ已经在go-cqhttp上登录___
 
+>___再次提醒：程序监听端口一定要与`config.yml`文件中一致，否则程序会无响应___
+
+- 本程序在 _`1.1.0`_ 版本后，需要安装在 _有权限更改文件的目录_ 下，如果程序打不开，请使用管理员模式打开exe程序。
+
+- 打开程序后会在同目录下生成一个 _`user_data`_ 文件夹（版本 _`1.0.0`_ 不会生成），为正常现象，若未生成说明程序未正常打开，请用 _管理员模式_ 运行。
+
+- 请根据程序的使用帮助界面，进行合法化合理化使用。
+
+# 关于程序
+
+- 程序的源码部分可以自行获取，但请在 ___`合法合理情况`___ 下使用。
+
+- 本程序源码以及衍生产物 ___不允许在权限未授予的情况下`商业化`使用___ ，否则根据本项目的[license:Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)，可以 __侵犯权益__ 的名义上诉。
+
+- 但是也不必太过于严肃，程序设计初衷也是为了方便大家，希望大家在使用程序时获取便利，最后，___enjoy yourself！___
+
+# Issue
+
+- 本项目由于 ___特殊原因（开发者只有一个，而且`很懒`）___ ，所以并没有开启（还有一个原因，开发者并非长期关注github的用户），所以提交bug或者想要新功能，在[release](https://github.com/certainstar/little-Python-software/releases)处留言或者直接email me<a href="mailto:2378145658@qq.com">at 开发者的邮箱</a>，开发者会定时查看大家的反馈。
