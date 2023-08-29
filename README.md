@@ -145,7 +145,7 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
       <details>
         <summary>步骤如下</summary>
 
-      - [x] 首先查看目前 _`go-cqhttp.exe`_ 支持的签名服务器版本号(应该是向下兼容的)，然后在[大佬的签名服务器项目下载页面](https://github.com/fuqiuluo/unidbg-fetch-qsign/releases)进行下载自己想要的版本。或者直接下载本项目中已经[下载好的签名服务器](https://github.com/certainstar/little-Python-software/tree/%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/%E7%AD%BE%E5%90%8D%E6%9C%8D%E5%8A%A1%E5%99%A8)。 _`注意：本库中的签名服务器版本为1.1.0版本`_
+      - [x] 首先查看目前 _`go-cqhttp.exe`_ 支持的签名服务器版本号(应该是向下兼容的)，然后在[大佬的签名服务器项目下载页面](https://github.com/fuqiuluo/unidbg-fetch-qsign/releases)进行下载自己想要的版本。或者直接下载本项目中已经[下载好的签名服务器](https://github.com/certainstar/little-Python-software/tree/%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/%E7%AD%BE%E5%90%8D%E6%9C%8D%E5%8A%A1%E5%99%A8)。 _`注意：本库中的签名服务器版本为1.1.0版本`_（若下载本库中的请直接将本库的 _`签名服务器`_ 文件夹下载完全，其中包三个文件夹：_`bin`_ , _`lib`_ , _`txlib`_ 和一个 _`start.bat`_ 文件）
       - [x] 下载后打开会发现有一个 _`start.bat`_ 脚本（如果在大佬的项目中没有找到，可以自行编写，源码可查看本项目中的 [_`start.bat脚本源代码`_](https://github.com/certainstar/little-Python-software/blob/%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/%E7%AD%BE%E5%90%8D%E6%9C%8D%E5%8A%A1%E5%99%A8/start.bat) ）或直接复制以下代码：
         ```bat
         bin\unidbg-fetch-qsign.bat --library=txlib\8.9.63 --port=8080  --count=1 --android_id= --host=0.0.0.0
@@ -217,7 +217,7 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
 
 - __有人在群聊中发送其他消息时，消息无法显示，而显示乱码的问题进行优化。__
 
--  ___新增一个定时功能和一个选择“检测关键词并发消息”次数的功能（其他新加功能在使用过程中可以发现）。\n在另一方面，为了优化关键词的选择，不那么单调，新增了“或和并”选择关键词方法。___
+-  ___新增`定时功能`，`选择“检测关键词并发消息”次数的功能`,`修改监控对象和发送对象功能`（其他新加功能在使用过程中可以发现）。在另一方面，为了优化关键词的选择，不那么单调，新增了“或和并”选择关键词方法。___
 
 </details>
 
