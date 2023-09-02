@@ -53,7 +53,7 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
         </p>
       </p>
       
-      - [x] 此时会生成一个如下图所示的弹窗，可以按照自身需求输入0~3，本程序以输入0为例子。输入后回车会生成一个 _`config.yml`_ 文件，打开后可以进行修改（可用记事本方式打开）,这里推荐用Sublime Text软件进行查看。[点击此处进入懒人界面](https://github.com/certainstar/Github-Pages-Save/blob/main/md/little-Python-software/onekey-yml.md)[^1]
+      - [x] 此时会生成一个如下图所示的弹窗，可以按照自身需求输入0~3，本程序以输入0为例子。输入后回车会生成一个 _`config.yml`_ 文件，打开后可以进行修改（可用记事本方式打开）,这里推荐用Sublime Text软件进行查看。[点击此处进入懒人界面](https://certainstar.github.io/Github-Pages-Save/md/little-Python-software/onekey-yml)[^1]
       
       [^1]:进入懒人界面可直接复制完整版的 _`config.yml`_ 文件。
 
@@ -103,7 +103,7 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
         </p>      
       </p>
 
-      > ___注：如果不知道自己的端口是否被占用，[点击此处](https://github.com/certainstar/Github-Pages-Save/blob/main/md/little-Python-software/listening.md)学习如何查看和怎么清理后台文件。___
+      > ___注：如果不知道自己的端口是否被占用，[点击此处](https://certainstar.github.io/Github-Pages-Save/md/little-Python-software/listening)学习如何查看和怎么清理后台文件。___
 
       - [x] 此时保存 _`config.yml`_ 文件，再次点击 _`go-cqhttp.bat`_ 文件，此时会生成一个 _`device.json`_ 文件,此时观察弹窗中的信息，如果未遇到 _`code 45`_ 错误，或者并未警告，账号有较高风险，则推荐继续向下操作。
         <div id="nowarning">
@@ -124,7 +124,7 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
           ```
           可自行选择1或2后回车，按照相对应的流程完成验证后，一般会正常登录。
 
-          _若出现在滑条验证中输入`1.自动提交`时，验证网址一直加载不出来的情况（最近出现较多），请选择`2.手动抓取提交`，如果不知道怎么手动抓取，[点击此处](https://github.com/certainstar/Github-Pages-Save/blob/main/md/little-Python-software/Manually-capture.md)进行学习_
+          _若出现在滑条验证中输入`1.自动提交`时，验证网址一直加载不出来的情况（最近出现较多），请选择`2.手动抓取提交`，如果不知道怎么手动抓取，[点击此处](https://certainstar.github.io/Github-Pages-Save/md/little-Python-software/Manually-capture)进行学习_
 
           若刚开始或完成滑块验证后有风险或遇到 _`code 45`_ 错误，请<a href="#qsign">配置签名服务器</a>，并对相应的 _`config.yml`_ 文件进行修改。
         </div>
@@ -135,7 +135,7 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
 <details>
 <summary id="qsign">如何配置签名服务器</summary>
 
-> ___提醒：运行该签名服务器前需要配置`java环境`，所以若还未配置java环境可先去[java官网](https://www.java.com/)进行下载，然后进行配置（若java版本过低无法运行后续bat脚本，可直接利用java命令进行更新），如果不会配置，[请点击此处进入配置java环境教学部分](https://github.com/certainstar/Github-Pages-Save/blob/main/md/little-Python-software/java-config.md)___
+> ___提醒：运行该签名服务器前需要配置`java环境`，所以若还未配置java环境可先去[java官网](https://www.java.com/)进行下载，然后进行配置（若java版本过低无法运行后续bat脚本，可直接利用java命令进行更新），如果不会配置，[请点击此处进入配置java环境教学部分](https://certainstar.github.io/Github-Pages-Save/md/little-Python-software/java-config)___
 
 > _问题：为什么要用签名服务器？为减少风控，减少`code45`  风控报错，最好对签名服务器进行配置_
   
@@ -223,7 +223,7 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
 
 2. _在几次正常登录后，又提醒类似 `您的账号被风控` 的字眼_：大概率说明账号被封号了，直接 `进行解封就可以`。
 
-3. _若出现正常登录时的提示，但是中间有类似`5700(您在config.yml文件配置的两个端口)被占用，将在5秒内关闭bot`的字眼_：说明您的端口被占用，解决方式请见[如何查看端口状态和清理端口工作问题](https://github.com/certainstar/Github-Pages-Save/blob/main/md/little-Python-software/listening.md)。 
+3. _若出现正常登录时的提示，但是中间有类似`5700(您在config.yml文件配置的两个端口)被占用，将在5秒内关闭bot`的字眼_：说明您的端口被占用，解决方式请见[如何查看端口状态和清理端口工作问题](https://certainstar.github.io/Github-Pages-Save/md/little-Python-software/listening)。 
 请将config.yml文件中您配置的端口换成未被占用的端口，并将程序中的两个对应监控端口位置进行修改，您可以通过修改py文件源码实现此修改(若您使用2.0.0版本程序，可以直接在程序内部进行修改)。`注意：一定要使程序监听端口一定要与`config.yml`文件中一致，否则程序会无响应。`
 
 ## 程序使用
