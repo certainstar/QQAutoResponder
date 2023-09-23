@@ -6,7 +6,7 @@
 
 <div align="center">
 
-# 监听脚本
+# QQ自动回复脚本
 
 _基于 [Mirai](https://github.com/mamoe/mirai) , [MiraiGo](https://github.com/Mrs4s/MiraiGo) 的 [OneBot](https://github.com/howmanybots/onebot/blob/master/README.md) Go语言(易语言)实现的框架,部分java代码实现的签名服务器_
 
