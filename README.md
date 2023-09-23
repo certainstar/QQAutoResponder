@@ -45,7 +45,7 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
         <summary>步骤如下</summary>
 
       - [x] 首先下载适合自己系统的最新的 _`go-cqhttp.exe`_ 文件，_[最新下载地址](https://github.com/Mrs4s/go-cqhttp/releases)_，或者直接导入[本库中的go-cqhttp.exe文件](https://github.com/certainstar/little-Python-software/blob/%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/go-cqhttp/go-cqhttp.exe)，_`注意：本库中的go-cqhttp为amd64版本`_
-      - [x] 下载后，点击 _`go-cqhttp.exe`_，会弹窗（如图配置go-cq步骤1），直接一路确认然后会在此目录下生成一个 _`go-cqhttp.bat`_ 文件，点击bat文件。
+      - [x] 下载后，点击 _`go-cqhttp.exe`_ ，会弹窗（如图配置go-cq步骤1），直接一路确认然后会在此目录下生成一个 _`go-cqhttp.bat`_ 文件，点击bat文件。
       <p align="center">
         <img src="img/配置go-cq步骤1.jpg" alt="配置go-cq步骤1">
         <p align="center">
@@ -76,7 +76,7 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
         allow-temp-session: true 
         ```
 
-        然后移到文件 __最后__ ，将 _`server`_ 中加入如下代码（___注意：缩进一定要准确，同时 `post` 中的`监听地址端口号`要为`5700`，`反向HTTP POST端口号`要为`5701`，因为程序中的`监听端口号`和`反向HTTP POST端口号`分别为`5700`和`5701`，但如果你想要监听其他端口或者由于端口`5700`和端口`5701`已经被占用，请将go-cqhttp中的端口和程序源码中的监听端口同步修改 ，若您使用的是`2.0.0`版本，则只需要在程序内部进行修改，保证与go-cqhttp中一致即可。___）：
+        然后移到文件 __最后__ ，将 _`server`_ 中加入如下代码（ ___注意：缩进一定要准确，同时 `post` 中的`监听地址端口号`要为`5700`，`反向HTTP POST端口号`要为`5701`，因为程序中的`监听端口号`和`反向HTTP POST端口号`分别为`5700`和`5701`，但如果你想要监听其他端口或者由于端口`5700`和端口`5701`已经被占用，请将go-cqhttp中的端口和程序源码中的监听端口同步修改 ，若您使用的是`2.0.0`版本，则只需要在程序内部进行修改，保证与go-cqhttp中一致即可。___ ）：
 
         ```yaml
         - http: # HTTP 通信设置
@@ -116,7 +116,7 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
             </p>
           </p>
 
-          推荐输入1后回车，这时弹窗会显示 _`请前往该地址验证->网址`_，将网址复制到浏览器打开，完成滑条验证后关闭，若此时弹窗无报错，可能会出现类似以下信息：
+          推荐输入1后回车，这时弹窗会显示 _`请前往该地址验证->网址`_ ，将网址复制到浏览器打开，完成滑条验证后关闭，若此时弹窗无报错，可能会出现类似以下信息：
           ```
           该QQ有设置密保:
           1.给手机***...***发送消息
@@ -144,12 +144,12 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
       <details>
         <summary>步骤如下</summary>
 
-      - [x] 首先查看目前 _`go-cqhttp.exe`_ 支持的签名服务器版本号(应该是向下兼容的)，然后在[大佬的签名服务器项目下载页面](https://github.com/fuqiuluo/unidbg-fetch-qsign/releases)进行下载自己想要的版本。或者直接下载本项目中已经[下载好的签名服务器](https://github.com/certainstar/little-Python-software/tree/%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/%E7%AD%BE%E5%90%8D%E6%9C%8D%E5%8A%A1%E5%99%A8)。 _`注意：本库中的签名服务器版本为1.1.0版本`_（若下载本库中的请直接将本库的 _`签名服务器`_ 文件夹下载完全，其中包三个文件夹：_`bin`_ , _`lib`_ , _`txlib`_ 和一个 _`start.bat`_ 文件）
+      - [x] 首先查看目前 _`go-cqhttp.exe`_ 支持的签名服务器版本号(应该是向下兼容的)，然后在[大佬的签名服务器项目下载页面](https://github.com/fuqiuluo/unidbg-fetch-qsign/releases)进行下载自己想要的版本。或者直接下载本项目中已经[下载好的签名服务器](https://github.com/certainstar/little-Python-software/tree/%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/%E7%AD%BE%E5%90%8D%E6%9C%8D%E5%8A%A1%E5%99%A8)。 _`注意：本库中的签名服务器版本为1.1.0版本`_ （若下载本库中的请直接将本库的 _`签名服务器`_ 文件夹下载完全，其中包三个文件夹： _`bin`_ , _`lib`_ , _`txlib`_ 和一个 _`start.bat`_ 文件）
       - [x] 下载后打开会发现有一个 _`start.bat`_ 脚本（如果在大佬的项目中没有找到，可以自行编写，源码可查看本项目中的 [_`start.bat脚本源代码`_](https://github.com/certainstar/little-Python-software/blob/%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/%E7%AD%BE%E5%90%8D%E6%9C%8D%E5%8A%A1%E5%99%A8/start.bat) ）或直接复制以下代码：
         ```bat
         bin\unidbg-fetch-qsign.bat --library=txlib\8.9.63 --port=8080  --count=1 --android_id= --host=0.0.0.0
         ```
-      - [x] 打开 _`start.bat`_ 文件进行编辑（可用记事本方式打开），会发现 _`android_id`_ 变量还未填入，此时返回找到在配置go-cqhttp时产生的 _`device.json`_ 文，打开该文件，找到该文件中的 _`android_id`_ 变量，复制变量值后（_只复制引号中的值_），粘贴到 _`start.bat`_ 文件中的 _`android_id=`_ 后进行赋值( _赋值后`--host`部分与你所复制的值之间应该有一个空格_)，赋值后代码应该形如：
+      - [x] 打开 _`start.bat`_ 文件进行编辑（可用记事本方式打开），会发现 _`android_id`_ 变量还未填入，此时返回找到在配置go-cqhttp时产生的 _`device.json`_ 文，打开该文件，找到该文件中的 _`android_id`_ 变量，复制变量值后（ _只复制引号中的值_ ），粘贴到 _`start.bat`_ 文件中的 _`android_id=`_ 后进行赋值( _赋值后`--host`部分与你所复制的值之间应该有一个空格_)，赋值后代码应该形如：
         ```bat
         bin\unidbg-fetch-qsign.bat --library=txlib\8.9.63 --port=8080  --count=1 --android_id=xxxx...xxxx --host=0.0.0.0
         ```
@@ -181,7 +181,7 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
         # 服务器可使用docker在本地搭建或者使用他人开放的服务
         sign-server: 'http://127.0.0.1:8080'
         ```
-        保存 _`config.yml`_ 后打开 _`go-cqhttp.bat`_ 脚本（此时要保证 _`start.bat`_ 脚本生成的签名服务器在后台运行，即生成的系统弹窗未关闭）。后续按照上述<a href="#nowarning" >未有报错或警告时</a>的操作进行操作。
+        保存 _`config.yml`_ 后打开 _`go-cqhttp.bat`_ 脚本（此时要保证 _`start.bat`_ 脚本生成的签名服务器在后台运行，即生成的系统弹窗未关闭）。后续按照上述[未有报错或警告时](#nowarning)的操作进行操作。
 
         由于部分原因，可能在第一次正常登录后，后续登录就不需要再挂上签名服务器，直接点击 _`go-cqhttp.bat`_ 脚本进行启动即可。若不放心，认为还有封号风险，可以在后续登录时先启动 _`start.bat`_ 脚本然后再启动 _`go-cqhttp.bat`_ 脚本。
       </details>  
@@ -207,7 +207,7 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
         [INFO]: 收到服务器地址更新通知, 将在下一次重连时应用.
         [INFO]: 网络诊断完成. 未发现问题
    ```
-   > 若未正常运行，则不会有此提示。常见错误见<a href="#error">常见go-cqhttp报错以及处理方式</a>
+   > 若未正常运行，则不会有此提示。常见错误见[常见go-cqhttp报错以及处理方式](#error)
 
 - [x] 如果程序出现上述提示后正常运行时，出现类似以下警告，是正常现象，不用担心。
 ```cmd
@@ -244,9 +244,9 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
 
 1. ___若程序在您输入相应要求后，只进行监控并在监控区有文本显示，而不发送消息，说明您的反向HTTP POST端口没有问题，而HTTP监控端口被占用___ 。为进一步确定是否为该问题，您可以将go-cqhttp挂在后台运行，然后点击浏览器输入网址 `127.0.0.1:(config.yml文件中您填入的HTTP监控端口)/send_msg?message_type=private&user_id=某个好友的QQ&message=测试成功`， 如果没有成功给您的好友发送消息“测试成功”，则说明存在该问题，此时建议将当前HTTP监控端口更换未被占用的端口(`注意：修改时，两个端口在程序和go-cqhttp中要一致。`)。若成功发送，且不知道如何解决，可联系开发者或者直接进行提问。
 
-2. ___若程序在您输入相应要求后，没有进行监控并在监控区没有文本显示，同时也不发送消息，说明您的反向HTTP POST端口有问题___，同上进行更换。
+2. ___若程序在您输入相应要求后，没有进行监控并在监控区没有文本显示，同时也不发送消息，说明您的反向HTTP POST端口有问题___ ，同上进行更换。
 
-3. ___若程序在第一次正常运行，而后续再次启用时，无法正常使用功能，大概率是因为您没有关闭完全程序的后台运行，解决此问题请查看[如何查看端口状态和清理端口工作问题](https://certainstar.github.io/Github-Pages-Save/md/little-Python-software/listening)___，若无法解决，~~可尝试重启电脑或者更换最新版本程序。若实在不知道该如何进行，可联系开发者或者直接进行提问。~~
+3. ___若程序在第一次正常运行，而后续再次启用时，无法正常使用功能，大概率是因为您没有关闭完全程序的后台运行，解决此问题请查看[如何查看端口状态和清理端口工作问题](https://certainstar.github.io/Github-Pages-Save/md/little-Python-software/listening)___ ，若无法解决，~~可尝试重启电脑或者更换最新版本程序。若实在不知道该如何进行，可联系开发者或者直接进行提问。~~
 
 > _如有其他问题,请联系开发者或直接进行提问。_
 
