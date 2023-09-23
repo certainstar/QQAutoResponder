@@ -126,7 +126,7 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
 
           _若出现在滑条验证中输入`1.自动提交`时，验证网址一直加载不出来的情况（最近出现较多），请选择`2.手动抓取提交`，如果不知道怎么手动抓取，[点击此处](https://certainstar.github.io/Github-Pages-Save/md/little-Python-software/Manually-capture)进行学习_
 
-          若刚开始或完成滑块验证后有风险或遇到 _`code 45`_ 错误，请<a href="#qsign">配置签名服务器</a>，并对相应的 _`config.yml`_ 文件进行修改。
+          若刚开始或完成滑块验证后有风险或遇到 _`code 45`_ 错误，请[配置签名服务器](#qsign)，并对相应的 _`config.yml`_ 文件进行修改。
         </div>
       </details>      
 </details>
@@ -217,13 +217,14 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
 - [x] 第一次正常登录后，会生成一个 _`session.token`_ 文件，可以通过此，来判断是否正常登录。
 
 ### **4.常见go-cqhttp报错以及处理方式**
+
 <span id="error"></span>
 
-1. _signsever报错_：说明签名服务器配置有问题，建议检查签名服务器的配置过程是否正确，并且请查看您的签名服务器是否在后台正常运行。
+1. _signsever报错_ ：说明签名服务器配置有问题，建议检查签名服务器的配置过程是否正确，并且请查看您的签名服务器是否在后台正常运行。
 
-2. _在几次正常登录后，又提醒类似 `您的账号被风控` 的字眼_：大概率说明账号被封号了，直接 `进行解封就可以`。
+2. _在几次正常登录后，又提醒类似 `您的账号被风控` 的字眼_ ：大概率说明账号被封号了，直接 `进行解封就可以`。
 
-3. _若出现正常登录时的提示，但是中间有类似`5700(您在config.yml文件配置的两个端口)被占用，将在5秒内关闭bot`的字眼_：说明您的端口被占用，解决方式请见[如何查看端口状态和清理端口工作问题](https://certainstar.github.io/Github-Pages-Save/md/little-Python-software/listening)。 
+3. _若出现正常登录时的提示，但是中间有类似`5700(您在config.yml文件配置的两个端口)被占用，将在5秒内关闭bot`的字眼_ ：说明您的端口被占用，解决方式请见[如何查看端口状态和清理端口工作问题](https://certainstar.github.io/Github-Pages-Save/md/little-Python-software/listening)。 
 请将config.yml文件中您配置的端口换成未被占用的端口，并将程序中的两个对应监控端口位置进行修改，您可以通过修改py文件源码实现此修改(若您使用2.0.0版本程序，可以直接在程序内部进行修改)。`注意：一定要使程序监听端口一定要与`config.yml`文件中一致，否则程序会无响应。`
 
 4. _出现 `code 45` 问题，并显示 `登录失败：你当前使用的QQ版本过低，请前往QQ官网下载最新版qq后重试`_ ，说明当前协议版本过低，不支持登录，需要升级协议版本。如果您不会升级，请查看[如何解决协议版本过低的问题](https://certainstar.github.io/Github-Pages-Save/md/little-Python-software/update-agreement)
