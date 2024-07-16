@@ -23,8 +23,9 @@ _脚本程序为Python语言编写,可在仓库中找到[各个版本的Python�
     <img src="https://img.shields.io/badge/license-Apache_License%20_2.0-orange" alt="license:Apache License 2.0">
   </a>
   <a href="https://github.com/certainstar/little-Python-software/releases" target="_blank">
-    <img src="https://img.shields.io/badge/release-v2.0.0-blue" alt="release:v1.2.1">
+    <img src="https://img.shields.io/badge/release-v2.0.0-blue" alt="release:v2.0.0">
   </a>
+  <img src="https://img.shields.io/github/downloads/certainstar/QQAutoResponder/total" alt="download">
 </p>
 
 <p align="center">
