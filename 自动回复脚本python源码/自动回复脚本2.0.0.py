@@ -13,25 +13,6 @@ import sys #用于对库进行清空
 from werkzeug.serving import make_server #用于创建一个简单的 WSGI 服务器
 from tkcalendar import DateEntry #用于创建一个时间选择器
 import turtle#画图
-
-'''
-request获得的json格式类似下面，其中时间time为时间戳的形式（为timestamp），
-它表示从某个特定的起始时间开始经过的秒数。
-通常，这样的时间戳是以 Unix 时间（从 1970 年 1 月 1 日开始计算）来计算的。
-私聊：{'post_type': 'message', 'message_type': 'private', 'time': 1691225575,
-'self_id': 3087161498, 'sub_type': 'friend', 'message_id': -857639481,
-'user_id': 1942507075, 'target_id': 3087161498, 'message': '尝试',
-'raw_message': '尝试', 'font': 0, 'sender': {'age': 0, 'nickname': '无念.',
-'sex': 'unknown', 'user_id': 1942507075}}
-群聊：{'post_type': 'message', 'message_type': 'group', 'time': 1692000891,
-'self_id': 3087161498, 'sub_type': 'normal', 'font': 0, 'group_id': 631678147,
-'message': '是的', 'raw_message': '是的', 'user_id': 1942507075, 'message_id':
--498338471, 'anonymous': None, 'message_seq': 5276,
-'sender': {'age': 0, 'area': '', 'card(群聊昵称)': '夏某', 'level': '',
-'nickname': '无念.', 'role（admin管理员，owner群主）': 'owner',
-'sex': 'unknown', 'title': '','user_id': 1942507075}}
-
-'''
 app = Flask(__name__)
 
 message_queue=queue.Queue()#用于flask线程存储消息流
